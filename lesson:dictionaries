@@ -1,0 +1,50 @@
+restaurant_menu = {
+    "Starters": {"Soup": 5.99, "Bruschetta": 6.50},
+    "Main Course": {"Steak": 15.99, "Salmon": 13.99},
+    "Desserts": {"Cake": 4.99, "Ice Cream": 3.99}
+}
+
+#Add a new category called "Beverages" with at least two items.
+
+restaurant_menu ['Beverages'] = 'Coke', 'Pepsi'
+
+print (restaurant_menu)
+
+#Update the price of "Steak" to 17.99.
+
+restaurant_menu ["Main Course"]= {'steak' :17.99}
+
+print (restaurant_menu)
+
+#Remove "Bruschetta" from "Starters".
+
+del restaurant_menu ["Starters"]['Bruschetta']
+print(restaurant_menu)
+
+
+
+service_tickets = {
+    "Ticket001": {"Customer": "Alice", "Issue": "Login problem", "Status":"open"},
+    "Ticket002": {"Customer": "Bob", "Issue": "Payment issue", "Status": "closed"}
+}
+def ticket_counter (service_tickets):
+    print("ticket_list:")
+    for ticket in service_tickets:
+        print(ticket)
+
+    for ticket in ticket_counter():
+        print (ticket)   
+        def ticket_counter ():
+            ticket_list = []
+            while True: 
+                action = input("update','open', 'display': ") 
+                if action == 'open':
+                    ticket= input ("Enter your ticket customer, issue, & status followed by comma: ")
+                    ticket_counter.append(ticket)
+                    print (f"{ticket} has been added to service_tickets.")
+                elif action == update:       
+                    update= input ("Enter customer")  
+                    ticket_counter.append (ticket)  
+                elif():
+                 print (ticket_list)
+
